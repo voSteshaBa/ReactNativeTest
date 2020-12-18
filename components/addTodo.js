@@ -14,7 +14,7 @@ return(
         style={styles.input}
         placeholder='new todo..'
         onChangeText={changeHandler}
-        ref = {input => { this.textInput.clear() }}/> 
+       /> 
 
         <Button onPress={() => submitHandler(text)} title='Add Todo' color='coral'/>
     </View>
